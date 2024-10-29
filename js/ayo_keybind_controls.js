@@ -1,0 +1,1 @@
+/*  Make the shortcut keys */jQuery(document).ready(function($){  $('#adminmenuwrap').menuHotkeys();  $('#wpadminbar').menuHotkeys();});//END of file

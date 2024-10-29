@@ -1,0 +1,179 @@
+
+
+.pinsort_colors, .pinsort_views, .pinsort_date {
+  color: #32373c;
+  margin-left: 14px;
+}
+
+.pinsort_colors:hover, .pinsort_views:hover, .pinsort_date:hover {
+  color: #008ec2;
+}
+
+.butoane {
+  float: right;
+}
+
+.pro_onlycolor {
+  margin-top: 1px;
+  margin-right: -2px;
+  display: inline-block;
+  cursor:pointer;
+  font-size: 16px;
+  line-height: 1;
+  font-family: dashicons;
+  content: "\f540";
+  text-decoration: inherit;
+  font-weight: 400;
+  font-style: normal;
+  vertical-align: top;
+  text-align: center;
+  -webkit-transition: color .1s ease-in 0;
+  transition: color .1s ease-in 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pro_onlycolor::before{
+  display: inline-block;
+  cursor:pointer;
+  font-size: 16px;
+  line-height: 1;
+  font-family: dashicons;
+  content: "\f540";
+  text-decoration: inherit;
+  font-weight: 400;
+  font-style: normal;
+  vertical-align: top;
+  text-align: center;
+  -webkit-transition: color .1s ease-in 0;
+  transition: color .1s ease-in 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ /*Admin bar pins scroll*/
+ #wp-admin-bar-ayo_abar-default{
+   max-height:600px;
+    overflow:auto;
+ }
+ /*Pins sorting filters*/
+.card_colorchange {
+  color:red;
+/*  display:none;*/
+}
+ .sort-pin-title{
+   float:left;
+ }
+
+.sort-pin-1{
+  float:left;
+  margin-right: 10px;
+}
+
+.sort-pin-1 select{
+  float:left;
+  width: 130px;
+  padding-right: 0px;
+  margin-right: 8px;
+  -webkit-appearance: none;
+  padding: 0 0 0 4px;
+  border-radius: 0;
+  box-shadow: none;
+  border: 0;
+  padding-right: 8px;
+  border-bottom: 1px solid #D6D6D6;
+  display: inline;
+  font-size: 14px;
+  background-color: transparent;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  top: 0;
+  content: "";
+  width: 160px;
+  background-position: right calc(100% - 7px);
+  background-repeat: no-repeat;
+  background-image: url("../img/select.png");
+  z-index: 5;
+}
+
+.sort-pin-1 select:focus{
+  -webkit-appearance: none;
+  padding: 0 0 0 4px;
+  border-radius: 0;
+  box-shadow: none;
+  padding-right: 8px;
+  border: 0;
+  border-bottom: 1px solid #2196f3;
+  display: inline;
+  font-size: 14px;
+  background-color: transparent;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  top: 0;
+  content: "";
+  width: 160px;
+  background-position: right calc(100% - 7px);
+  background-repeat: no-repeat;
+  background-image: url("../img/select.png");
+  z-index: 5;
+  outline: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+}
+
+.sort-pin-2{
+  float:left;
+}
+
+.sort-pin-2 input{
+  width: 220px;
+  float:left;
+  -webkit-appearance: none;
+  padding: 4px 4px 4px 0;
+  border-radius: 0;
+  box-shadow: none;
+  border: 0;
+  border-bottom: 1px solid #D6D6D6;
+  display: block;
+  font-size: 14px;
+  background-color: transparent;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.sort-pin-2 input:focus{
+  float:left;
+  -webkit-appearance: none;
+  border-radius: 0;
+  box-shadow: none;
+  border: 0;
+  border-bottom: 1px solid #2196f3;
+  display: block;
+  font-size: 14px;
+  background-color: transparent;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  -webkit-transition: all;
+  -o-transition: all;
+  transition: all;
+  -webkit-transition-duration: 800ms;
+  transition-duration: 800ms;
+}
+
+ /*Un Pin*/
+.card_unpin:before {
+  display: inline-block;
+  cursor:pointer;
+  font-size: 16px;
+  line-height: 1;
+  font-family: dashicons;
+  content: "\f158";
+  color: rgba(255, 255, 255, 0.45);
+  text-decoration: inherit;
+  font-weight: 400;
+  font-style: normal;
+  vertical-align: top;
+  text-align: center;
+  -webkit-transition: color .1s ease-in 0;
+  transition: color .1s ease-in 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ /*Pins Info*/
+ .pin_modified{    text-align: right;    width: 25%;    font-size: 10px;    line-height: 14px;    padding: 8px 7px 8px 7px;    float:left;    color:#fff; }
+ .pin_infos{    width: 16.4%;    display: inline-block;    word-wrap: break-word;    background-color: #0073aa;    margin-top:-89px; }div.pin_info:hover {	cursor: pointer; } .pin_comm{    text-align: center;    width: 24%;    font-size: 10px;    line-height: 14px;    padding: 8px 7px 8px 7px;    float:left;    color:white; }  .pin_date{    text-align: center;    width: 24%;    font-size: 10px;    line-height: 14px;    padding: 8px 7px 8px 7px;    float:left;    color:white; } .pin_author{    text-align: center;    width: 24%;    font-size: 10px;    line-height: 14px;    padding: 8px 7px 8px 7px;    float:left;    color:white; } .pin_status{    text-align: center;    width: 24%;    font-size: 10px;    line-height: 14px;    padding: 8px 7px 8px 7px;    float:left;    color:white; } .pin_price{    text-align: center;    width: 24%;    font-size: 10px;    line-height: 14px;    padding: 8px 7px 8px 7px;    float:left;    color:white; } .pin_sales{    text-align: center;    width: 24%;    font-size: 10px;    line-height: 14px;    padding: 8px 7px 8px 7px;    float:left;    color:white; }  .pin_portpic{    text-align: center;    width: 24%;    font-size: 10px;    line-height: 14px;    padding: 8px 7px 8px 7px;    float:left;    color:white; } .pin_qty{    text-align: center;    width: 24%;    font-size: 10px;    line-height: 14px;    padding: 8px 7px 8px 7px;	float:left;    color:white; } .pin_restock{    text-align: center;    width: 24%;    font-size: 10px;    line-height: 14px;    padding: 8px 7px 8px 7px;	float:left;    color:white; } .pin_views{    text-align: center;    width: 24%;    font-size: 10px;    line-height: 14px;    padding: 8px 7px 8px 7px;    float:left;    color:white; }  .pin_thumbnail{    text-align: center;    width: 90%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white;}.pin_thumbnail img {    height: 30px;} /* === Dashboard Pin in Queing === */ .pin-que {   margin-top: 77px; } /* === Line extanding on hover - Pin area In Welcome area on Dashboard === */ .welcome-panel:hover .line-pin-to-dashboard{   width:10%; } /* === Content inside the pin === */ .pinboard_content {    padding: 0 6px;} .custom-welcome-panel-content {     margin-left: 13px;     max-width: 100%; } .card_unpin {    float: right;    margin-top: 1px;    padding-right: 6px;    cursor: pointer;    }.ayo-pin-it::after {    float: right;    margin-top: -20px;    padding-right: 11px;    cursor: pointer;    display: inline-block;  cursor:pointer;  font-size: 16px;  line-height: 1;  font-family: dashicons;  content: "\f158";  text-decoration: inherit;  font-weight: 400;  font-style: normal;  vertical-align: top;  text-align: center;  -webkit-transition: color .1s ease-in 0;  transition: color .1s ease-in 0;  -webkit-font-smoothing: antialiased;  -moz-osx-font-smoothing: grayscale; } #sortable {   list-style-type: none;   margin: 0;   padding: 0;   max-width: 100%;   text-align: left; } #pins_info_hover{    padding: 0;    height: 120px;    font-size: 14px;    text-align: left;    background-color: #2569A2;    border: 0;    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06), 0 2px 10px 0 rgba(0, 0, 0, 0.02);    transition-duration: 300ms;    width: 15%;    display: inline-block;	position: relative;	right: 0;	top: -50px;	-webkit-transition: opacity 0.2s ease-in-out, top 0.2s ease-in-out;	-moz-transition: opacity 0.2s ease-in-out, top 0.2s ease-in-out;	transition: opacity 0.2s ease-in-out, top 0.2s ease-in-out;	z-index:200000;   } .pins_info_hover:after{	background-color: #fff;	border-bottom: 1px solid #ccc;	border-right: 1px solid #ccc;	bottom: -7px;	content: '';	display: inline-block;	height: 10px;	left: 0;	margin: auto;	position: absolute;	right: 0;	width: 10px;	-webkit-transform: rotate(45deg);	-moz-transform: rotate(45deg);	-ms-transform: rotate(45deg);	transform: rotate(45deg);	z-index:-200000;    }.pins_info_hover.visible{  opacity: 1;  z-index:-200000;} #sortable li {	margin: 10px 10px 10px 10px;    padding: 0;    height: 122px !important;    font-size: 14px;    text-align: left;    background: #0085ba;    border-color: #0073aa #006799 #006799;    border-width: 1px;    border-style: solid;    -webkit-appearance: none;    -webkit-border-radius: 3px;    border-radius: 3px;    box-sizing: border-box;    -webkit-box-shadow: 0 3px 0 #006799;    box-shadow: 0 3px 0 #006799;    transition-duration: 300ms;    width: 15%;    display: inline-block; } #sortable  .ui-state-highlight {    height: 100%;    width: 100%;  } .ui-state-default {    background: #0085BA url("images/ui-bg_glass_75_e6e6e6_1x400.png") repeat-x scroll 50% 50% !important;} .ayo_pinmofucka{   cursor: pointer;   margin-top: -13px; } /* === Buttons on the Pin Card === */div.btn_pin_edit {  width: 37%;  height: 26px;  padding-top: 7px;  text-align: center;  float: left;}div.btn_pin_view {  width: 37%;  height: 26px;  padding-top: 7px;  text-align: center;  float: right;}div.pin_info {  width: 26%;  text-align: center;  float: left;  height: 26px;  padding-top: 7px;}div.btn_pin_view:hover {  background-color: rgba(255, 255, 255, 0.15);}div.pin_info:hover {  background-color: rgba(255, 255, 255, 0.15);}div.pin_info::active {  background-color: rgba(255, 255, 255, 0.15);}div.pin_info:focus {  background-color: rgba(255, 255, 255, 0.15);}div.btn_pin_edit:hover {  background-color: rgba(255, 255, 255, 0.15);}div.btn_pin_status {  color: rgba(255, 255, 255, 0.45);  font-size: 12px;  font-weight: 900;  padding-left: 8px;}div.btn_pin_title {  padding-left: 8px;  padding-right: 8px;  color: #fff;  margin-bottom: 0px;  padding-bottom: 20px;  height: 40px;  word-wrap: break-word;  line-height: normal;  text-shadow: 0 -1px 1px #006799,1px 0 1px #006799,0 1px 1px #006799,-1px 0 1px #006799;}div.btn_pin_all{  width: 100%;  overflow: hidden;  display: inline-block;}/* === Mobile - diferent sizes so they will look consistent do to the resizing === */@media (max-width: 400px) {.pin_infos {  width: 76.1%;  display: inline-block;  word-wrap: break-word;  background-color: #0073aa;  margin-top: -89px;  border-radius: 3px;}    .pin_comm{    text-align: center;    width: 26%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; }  .pin_date{    text-align: center;    width: 26%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; } .pin_author{    text-align: center;    width: 26%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; } .pin_status{    text-align: center;    width: 26%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; } .pin_price{    text-align: center;    width: 26%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; } .pin_sales{    text-align: center;    width: 26%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; }  .pin_portpic{    text-align: center;    width: 26%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; } .pin_qty{    text-align: center;    width: 26%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;	float:left;    color:white; } .pin_restock{    text-align: center;    width: 26%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;	float:left;    color:white; } .pin_views{    text-align: center;    width: 26%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; } .pin-que {   margin-top: 53px; }  .pin_thumbnail{    text-align: center;    width: 90%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white;}.pin_thumbnail img {    height: 30px;} #sortable {    display: inline-table;}  #sortable li {    width: 91.1%;  }}@media (min-width: 500px) {  .pin_infos{    width: 41%;    display: inline-block;    word-wrap: break-word;    background-color: #0073aa;    margin-top:-89px;	border-radius: 3px; } .pin_thumbnail{    text-align: center;    width: 90%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white;}.pin_thumbnail img {    height: 30px;}  #sortable li {    width: 44%;  }}@media (min-width: 600px) {  .pin_infos{    width: 41.8%;    display: inline-block;    word-wrap: break-word;    background-color: #0073aa;    margin-top:-89px; }  #sortable li {    width: 46%;  }    .pin_comm{    text-align: center;    width: 26.9%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; }  .pin_date{    text-align: center;    width: 26.9%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; } .pin_author{    text-align: center;    width: 26.9%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; } .pin_status{    text-align: center;    width: 26.9%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; } .pin_price{    text-align: center;    width: 26.9%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; } .pin_sales{    text-align: center;    width: 26.9%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; }  .pin_portpic{    text-align: center;    width: 26.9%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; } .pin_qty{    text-align: center;    width: 26.9%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;	float:left;    color:white; } .pin_restock{    text-align: center;    width: 26.9%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;	float:left;    color:white; } .pin_views{    text-align: center;    width: 26.9%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; } .pin_thumbnail{    text-align: center;    width: 90%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white;}.pin_thumbnail img {    height: 30px;}}@media (min-width: 700px) {  .pin_infos{    width: 43.6%;    display: inline-block;    word-wrap: break-word;    background-color: #0073aa;    margin-top:-89px;	border-radius: 3px; }  #sortable li {    width: 45.6%;  }      .pin_comm{    text-align: center;    width: 28%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; }  .pin_date{    text-align: center;    width: 28%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; } .pin_author{    text-align: center;    width: 28%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; } .pin_status{    text-align: center;    width: 28%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; } .pin_price{    text-align: center;    width: 28%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; } .pin_sales{    text-align: center;    width: 28%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; }  .pin_portpic{    text-align: center;    width: 28%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; } .pin_qty{    text-align: center;    width: 28%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;	float:left;    color:white; } .pin_restock{    text-align: center;    width: 28%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;	float:left;    color:white; } .pin_views{    text-align: center;    width: 28%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; } .pin_thumbnail{    text-align: center;    width: 90%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white;}.pin_thumbnail img {    height: 30px;}}@media (min-width: 1000px) {  .pin_infos{    width: 29.3%;    display: inline-block;    word-wrap: break-word;    background-color: #0073aa;    margin-top:-89px;	border-radius: 3px; }  .pin_comm{    text-align: center;    width: 26.3%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; }  .pin_date{    text-align: center;    width: 26.3%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; } .pin_author{    text-align: center;    width: 26.3%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; } .pin_status{    text-align: center;    width: 26.3%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; } .pin_price{    text-align: center;    width: 26.3%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; } .pin_sales{    text-align: center;    width: 26.3%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; }  .pin_portpic{    text-align: center;    width: 26.3%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; } .pin_qty{    text-align: center;    width: 26.3%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;	float:left;    color:white; } .pin_restock{    text-align: center;    width: 26.3%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;	float:left;    color:white; } .pin_views{    text-align: center;    width: 26.3%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; } .pin_thumbnail{    text-align: center;    width: 90%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white;}.pin_thumbnail img {    height: 30px;}  #sortable li {    width: 30.6%;  }}@media (min-width: 1100px) {  .pin_infos{    width: 22.2%;    display: inline-block;    word-wrap: break-word;    background-color: #0073aa;    margin-top:-89px;	border-radius: 3px;	height: auto; }  .pin_comm{    text-align: center;    width: 26%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; }  .pin_date{    text-align: center;    width: 26%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; } .pin_author{    text-align: center;    width: 26%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; } .pin_status{    text-align: center;    width: 26%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; } .pin_price{    text-align: center;    width: 26%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; } .pin_sales{    text-align: center;    width: 26%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; }  .pin_portpic{    text-align: center;    width: 26%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; } .pin_qty{    text-align: center;    width: 26%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;	float:left;    color:white; } .pin_restock{    text-align: center;    width: 26%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;	float:left;    color:white; } .pin_views{    text-align: center;    width: 26%;    font-size: 10px;    line-height: 14px;    padding: 8px 8px 8px 8px;    float:left;    color:white; }  .pin_thumbnail{    text-align: center;    width: 90%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white;}.pin_thumbnail img {    height: 30px;}  #sortable li {    width: 23%;  }}@media (min-width: 1300px) {  .pin_infos{    width: 17.3%;    display: inline-block;    word-wrap: break-word;    background-color: #0073aa;    margin-top:-89px;	border-radius: 3px;	height: 88px; } .pin_comm{    text-align: center;    width: 24%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white; }  .pin_date{    text-align: center;    width: 24%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white; } .pin_author{    text-align: center;    width: 24%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white; } .pin_status{    text-align: center;    width: 24%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white; } .pin_price{    text-align: center;    width: 24%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white; } .pin_sales{    text-align: center;    width: 24%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white; }  .pin_portpic{    text-align: center;    width: 24%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white; } .pin_qty{    text-align: center;    width: 24%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;	float:left;    color:white; } .pin_restock{    text-align: center;    width: 24%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;	float:left;    color:white; } .pin_views{    text-align: center;    width: 24%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white; } .pin_thumbnail{    text-align: center;    width: 90%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white;}.pin_thumbnail img {    height: 30px;}  #sortable li {    width: 18.1%;  }}@media (min-width: 1400px) {  .pin_infos{    width: 17.7%;    display: inline-block;    word-wrap: break-word;    background-color: #0073aa;    margin-top:-89px;	border-radius: 3px; }  #sortable li {    width: 18.2%;  } .pin_comm{    text-align: center;    width: 24.5%;    font-size: 10px;    line-height: 14px;q    padding: 8px 9px 8px 9px;    float:left;    color:white; }  .pin_date{    text-align: center;    width: 24.5%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white; } .pin_author{    text-align: center;    width: 24.5%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white; } .pin_status{    text-align: center;    width: 24.5%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white; } .pin_price{    text-align: center;    width: 24.5%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white; } .pin_sales{    text-align: center;    width: 24.5%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white; }  .pin_portpic{    text-align: center;    width: 24.5%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white; } .pin_qty{    text-align: center;    width: 24.5%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;	  float:left;    color:white; } .pin_restock{    text-align: center;    width: 24.5%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;	  float:left;    color:white; } .pin_views{    text-align: center;    width: 24.5%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white; }  .pin_thumbnail{    text-align: center;    width: 90%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white;}.pin_thumbnail img {    height: 30px;}}@media (min-width: 1600px) {  .pin_infos{    width: 14.8%;    display: inline-block;    word-wrap: break-word;    background-color: #0073aa;    margin-top:-89px;	border-radius: 3px; }  #sortable li {    width: 15.2%;  } .pin_comm{    text-align: center;    width: 24.5%;    font-size: 10px;    line-height: 14px;q    padding: 8px 9px 8px 9px;    float:left;    color:white; }  .pin_date{    text-align: center;    width: 24.5%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white; } .pin_author{    text-align: center;    width: 24.5%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white; } .pin_status{    text-align: center;    width: 24.5%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white; } .pin_price{    text-align: center;    width: 24.5%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white; } .pin_sales{    text-align: center;    width: 24.5%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white; }  .pin_portpic{    text-align: center;    width: 24.5%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white; } .pin_qty{    text-align: center;    width: 24.5%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;	float:left;    color:white; } .pin_restock{    text-align: center;    width: 24.5%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;	float:left;    color:white; } .pin_views{    text-align: center;    width: 24.5%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white; }.pin_thumbnail{    text-align: center;    width: 90%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white;}.pin_thumbnail img {    height: 30px;}}@media (min-width: 1800px) {  .pin_infos{    width: 15%;    display: inline-block;    word-wrap: break-word;    background-color: #0073aa;    margin-top:-89px;	border-radius: 3px; }  #sortable li {    width: 15.4%;  }  .pin_comm{    text-align: center;    width: 25.8%;    font-size: 10px;    line-height: 14px;q    padding: 8px 9px 8px 9px;    float:left;    color:white; }  .pin_date{    text-align: center;    width: 25.8%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white; } .pin_author{    text-align: center;    width: 25.8%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white; } .pin_status{    text-align: center;    width: 25.8%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white; } .pin_price{    text-align: center;    width: 25.8%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white; } .pin_sales{    text-align: center;    width: 25.8%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white; }  .pin_portpic{    text-align: center;    width: 25.8%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white; } .pin_qty{    text-align: center;    width: 25.8%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;	float:left;    color:white; } .pin_restock{    text-align: center;    width: 25.8%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;	float:left;    color:white; } .pin_views{    text-align: center;    width: 25.8%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white; } .pin_thumbnail{    text-align: center;    width: 90%;    font-size: 10px;    line-height: 14px;    padding: 8px 9px 8px 9px;    float:left;    color:white;}.pin_thumbnail img {    height: 30px;}}

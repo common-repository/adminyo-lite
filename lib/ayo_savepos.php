@@ -1,0 +1,1 @@
+<?php/*save pins order*/add_action('wp_ajax_ayo_get_order' , 'ayo_get_order');function ayo_get_order() {  $user_id = get_current_user_id();  header('Content-Type: application/json');  echo json_encode(array("order"=>get_user_meta($user_id,'pins_order')));   die();}//END of file
